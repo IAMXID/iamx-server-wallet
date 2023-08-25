@@ -27,7 +27,7 @@ class ServerWallet
         $this->identity = $iamxIdentityDir.'/identity.json';
 
         $this->scope = [
-            'did' => '', 'person' => ['issuer', 'firstname', 'lastname', 'birthdate'], 'address' => [], 'email' => []
+            'did' => ''
         ];
 
         if (!File::exists($pathToPrivateKey)) {
@@ -77,8 +77,7 @@ class ServerWallet
             }
         }
         $identityArray['did'] = $decryptedIdentity['DIDDocument']['ipfs'];
-
-
+        
         return $identityArray;
     }
 
