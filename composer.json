@@ -1,0 +1,29 @@
+{
+  "name": "iamxid/iamx-server-wallet",
+  "description": "IAMX server wallet pro is a Laravel package to create and manage your IAMX wallet in your laravel application",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jochen Heinz",
+      "email": "support@cardano-blockhouse.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0",
+    "spatie/crypto": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IAMXID\\IamxServerWallet\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IAMXID\\IamxServerWallet\\IamxServerWalletServiceProvider"
+      ]
+    }
+  }
+}
