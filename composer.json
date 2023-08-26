@@ -1,6 +1,6 @@
 {
   "name": "iamxid/iamx-server-wallet",
-  "description": "IAMX server wallet pro is a Laravel package to create and manage your IAMX wallet in your laravel application",
+  "description": "IAMX server wallet is a Laravel package to create and manage your IAMX wallet in your laravel application",
   "type": "library",
   "license": "MIT",
   "authors": [

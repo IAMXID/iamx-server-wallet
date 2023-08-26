@@ -1,6 +1,6 @@
 # iamx-server-wallet
 
-IAMX server wallet pro is a Laravel package to create and manage your IAMX wallet in your laravel application.
+IAMX server wallet is a Laravel package to create and manage your IAMX wallet in your laravel application.
 
 - [IAMX-server-wallet](#iamx-server-wallet)
     - [Installation](#Installation)
